@@ -27,7 +27,7 @@ DEBUG = os.environ.get("DEBUG", True)
 APP_DOMAIN = os.getenv("APP_DOMAIN", "localhost")
 
 # HOSTs List
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", APP_DOMAIN, ".deploypro.dev", "http://ios4cccw4s8ogcw08o8socc4.163.245.214.68.sslip.io",]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", APP_DOMAIN, ".deploypro.dev", "ios4cccw4s8ogcw08o8socc4.163.245.214.68.sslip.io",]
 
 # Add here your deployment HOSTS
 CSRF_TRUSTED_ORIGINS = [
